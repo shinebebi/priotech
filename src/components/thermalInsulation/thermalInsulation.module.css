@@ -1,0 +1,40 @@
+.main {
+    display: flex;
+    width: 1000px;
+    flex-direction: column;
+    color: #151515;
+    font-weight: 400;
+    font-size: 20px;
+    border-bottom: 1px solid #7F7F7F;
+    margin: 40px auto auto auto;
+    padding-bottom: 20px;
+    line-height: 25px;
+    justify-content: center;
+}
+.sub_title {
+    color: #151515;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+}
+.solutions_container {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.title {
+    color: #FF7F26;
+    font-size: 35px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 37px;
+}
+
+.text {
+    border: 5px dashed #7F7F7F;
+    width: 400px;
+    padding: 10px;
+}
+
+

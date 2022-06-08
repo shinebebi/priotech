@@ -1,0 +1,46 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #7F7F7F;
+    margin: 100px auto 20px auto;
+    font-weight: 300;
+    font-size: 18px;
+    color: #151515;
+    line-height: 21px;
+}
+
+.title {
+    color: #FF7F26;
+    font-size: 35px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.services_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    grid-template-rows: repeat(auto-fill, 1fr);
+    gap: 40px;
+    width: 1000px;
+    justify-content: center;
+}
+
+.service_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.service_number {
+    font-weight: 320;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.service_sub_title {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    height: 90px;
+    text-transform: uppercase;
+    font-weight: 400;
+}

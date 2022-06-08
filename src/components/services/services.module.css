@@ -1,0 +1,39 @@
+.main {
+    display: flex;
+    width: 1000px;
+    flex-direction: column;
+    color: #151515;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 40px auto auto auto;
+    padding-bottom: 20px;
+    line-height: 25px;
+}
+.title {
+    color: #FF7F26;
+    font-size: 35px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 37px;
+}
+
+.sub_title {
+    color: #151515;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.services_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 500px);
+    grid-template-rows: repeat(auto-fill, 1fr);
+    gap: 40px;
+    width: 1000px;
+    justify-content: center;
+}
+
+.service {
+    border: 5px dashed #7F7F7F;
+    text-align: center;
+}

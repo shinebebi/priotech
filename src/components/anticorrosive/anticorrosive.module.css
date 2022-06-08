@@ -1,0 +1,36 @@
+.main {
+    width: 1000px;
+    border-bottom: 1px solid #7F7F7F;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+    color: #151515;
+    font-weight: 300;
+    font-size: 16px;
+    justify-content: start;
+    margin: auto;
+    gap: 30px;
+}
+
+.info_container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.title {
+    color: #FF7F26;
+    font-size: 35px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.img_box {
+    width: 350px;
+    height: 500px;
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+}

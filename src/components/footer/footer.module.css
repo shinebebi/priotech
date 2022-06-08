@@ -1,0 +1,24 @@
+.main {
+    width: 100%;
+    height: 190px;
+    background-color: #151515;
+    color: #7F7F7F;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    gap: 410px;
+    padding-top: 40px;
+}
+
+.sign {
+    color: #FFFFFF;
+    margin-left: 200px;
+}
+
+.link_box {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+

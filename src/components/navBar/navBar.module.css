@@ -60,3 +60,34 @@
     margin: auto;
     z-index: 2;
 }
+
+@media screen and (max-width: 420px) {
+    .header {
+        color: #7F7F7F;
+        font-weight: 300;
+        font-size: 20px;
+        margin: auto;
+    }
+    .picture_box {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 90%);
+        grid-template-rows: repeat(auto-fill, 1fr);
+        gap: 16px;
+    }
+    .main {
+        width: 90%;
+        align-items: center;
+        margin: 50px auto 50px auto;
+        gap: 20px;
+    }
+
+}
+@media screen and (max-width: 768px) and (min-width: 320px){
+    .main {
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .main {
+    }
+}

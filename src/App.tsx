@@ -19,10 +19,10 @@ function App() {
           <NavBar/>
           <Steps/>
           <Engineering/>
+          <Services/>
           <Anticorrosive/>
           <FireProtection/>
           <ThermalInsulation/>
-          <Services/>
           <Contacts/>
           <Footer/>
       </div>

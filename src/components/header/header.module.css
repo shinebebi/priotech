@@ -1,18 +1,30 @@
 .main {
     display: grid;
     grid-template-columns: 670px 640px;
-    grid-column-gap: 30px;
+    grid-column-gap: 100px;
     width: auto;
-    height: 400px;
     grid-template-rows: 200px 100px 55px;
     color: #151515;
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
-    margin-left: 110px;
-    margin-top: 50px;
+    margin: 50px auto auto auto;
     overflow-x: hidden;
     overflow-y: hidden;
+}
+
+.link {
+    display: none;
+    text-decoration: none;
+    color: #151515;
+    font-size: 20px;
+}
+
+.hover {
+    display: block;
+    text-decoration: none;
+    color: #151515;
+    font-size: 20px;
 }
 
 .header {
@@ -38,9 +50,9 @@
 .img_box {
     grid-row: 1 / 4;
     grid-column: 2 / 3;
-    margin: 30px -120px auto auto;
-    width: 650px;
-    height: 350px;
+    margin: 30px auto auto auto;
+    width: 630px;
+    height: 320px;
 }
 
 .img {
@@ -51,5 +63,57 @@
 
 .name {
     font-weight: 550;
-    font-style: italic;
+}
+
+@media screen and (max-width: 420px) {
+    .main {
+        grid-template-rows: 250px 100px 140px 55px;
+        grid-template-columns: 100%;
+        height: auto;
+        gap: 20px;
+        width: 100%;
+        margin-top: 0;
+    }
+    .img_box {
+        grid-row: 1 / 2;
+        grid-column: 1 / 1;
+        width: 100%;
+        height: 250px;
+        margin: auto;
+    }
+    .img {
+        border-radius: 0;
+    }
+    .header {
+        margin-left: 16px;
+        margin-bottom: 0;
+        font-weight: 430;
+        grid-row: 2 / 3;
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .header_text {
+        grid-row: 3 / 4;
+        margin-left: 16px;
+    }
+    .button {
+        grid-row: 4 / 5;
+        margin-left: 16px;
+    }
+    .link {
+        display: block;
+    }
+    .hover {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px){
+    .main {
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .main {
+    }
 }

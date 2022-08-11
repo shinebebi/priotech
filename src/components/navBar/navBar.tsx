@@ -2,13 +2,13 @@
 import style from "./navBar.module.css";
 import React from "react";
 // @ts-ignore
-import image1 from './ingineer_img.JPG'
+import image1 from './img_1.jpeg'
 // @ts-ignore
-import image2 from './anticorrosion .jpeg'
+import image2 from './img_2.jpeg'
 // @ts-ignore
-import image3 from './fireprotection.jpeg'
+import image3 from './img_3.png'
 // @ts-ignore
-import image4 from './img_6.jpeg'
+import image4 from './img_4.jpeg'
 
 
 
@@ -28,7 +28,7 @@ function Picture(props: IPicture) {
 
 function NavBar() {
     return (
-        <section className={style.main}>
+        <section className={style.main} id='navBar'>
             <h2 className={style.header}>ОСНОВНЫЕ НАПРАВЛЕНИЯ ДЕЯТЕЛЬНОСТИ:</h2>
             <div className={style.picture_box}>
                 <Picture img={image1} title='ИНЖИНИРИНГ'/>

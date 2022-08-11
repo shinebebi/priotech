@@ -34,3 +34,27 @@
     height: 100%;
     width: 100%;
 }
+@media screen and (max-width: 420px) {
+    .main {
+        width: 90%;
+    }
+    .img_box {
+        display: none;
+    }
+    .title {
+        font-size: 24px;
+    }
+    .info_container {
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 768px) and (min-width: 320px){
+    .main {
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .main {
+    }
+}
